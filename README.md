@@ -4,7 +4,7 @@ This is AI application for optimal Hyperloop route generation.
 
 ## Features
 
-- Real geological and landform data is used
+- Real geological and landform data used
 - Different infrastructure types are considered: tunnels, pylons and everything in between
 - Route is optimized in two planes: horizontal and vertical
 - Fitness function is defined as a cost of route construction and maintenance
@@ -69,7 +69,7 @@ Configuration can be done by editing _definitions_ module:
 - _types.py_ - start and end point, mesh resolution, cost and range for every type of infrastructure, route initial parameters etc.
 
 To generate route between selected point A and B it is needed to provide geological data into _resources/geo_data/all/_.
-If any locations should be treated as banned they need to be added to _resources/geo_data/out_region/_.
+If any locations should be treated as not allowed then they need to be added to _resources/geo_data/out_region/_.
 
 ## Technologies
 Python 3.10, all used third party packages are specifies in _requirements.txt_.
